@@ -1,3 +1,6 @@
-https://www.vpngate.net/ja/ サイトにある日本のｖｐｎを使おうとしたものの
-各ｖｐｎのL2TP/IPsecが接続できない場合は使えなかった
-いつか使えるかも知らないので保存しておく
+vpngateにある日本のｖｐｎを利用して
+便利に接続してくれる
+
+必要なファイル：openvpn gui (https://www.openvpn.jp/download/)
+
+
