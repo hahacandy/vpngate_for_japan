@@ -122,8 +122,9 @@ def createFolder(directory):
                     print ('Error: Creating directory. ' +  directory) 
         
         
-get_vpn_lists()
-show_vpn_lists()
+while(True):
+    get_vpn_lists()
+    show_vpn_lists()
 
-user_number = int(input("선택할 vpn의 번호를 입력: "))
-connect_vpn(user_number)
+    user_number = int(input("선택할 vpn의 번호를 입력: "))
+    connect_vpn(user_number)
