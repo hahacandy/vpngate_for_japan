@@ -123,8 +123,11 @@ def createFolder(directory):
         
         
 while(True):
-    get_vpn_lists()
-    show_vpn_lists()
+    try:
+        get_vpn_lists()
+        show_vpn_lists()
 
-    user_number = int(input("선택할 vpn의 번호를 입력: "))
-    connect_vpn(user_number)
+        user_number = int(input("선택할 vpn의 번호를 입력: "))
+        connect_vpn(user_number)
+    except:
+        os.system('cls')
