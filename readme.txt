@@ -4,3 +4,5 @@ vpngateにある日本のｖｐｎを利用して
 必要なファイル：openvpn gui (https://www.openvpn.jp/download/)
 
 
+pip install lxml bs4 requests
+
