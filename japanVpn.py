@@ -5,12 +5,13 @@ import requests
 import re
 from bs4 import BeautifulSoup
 import shutil
+import getpass
 
 
 
 #ファイルの経路、　パソコンによって違うかも知らないので
 path_openvpn_gui = "C:\\Program Files\\OpenVPN\\bin\\openvpn-gui.exe"
-path_openvpn_config = "C:/Users/desk/OpenVPN/config/"
+path_openvpn_config = "C:/Users/"+getpass.getuser()+"/OpenVPN/config/"
 
 
 vpn_lists = []
