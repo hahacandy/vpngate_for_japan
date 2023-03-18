@@ -124,6 +124,7 @@ def createFolder(directory):
         
         
 while(True):
+    vpn_lists = []
     try:
         get_vpn_lists()
         show_vpn_lists()
