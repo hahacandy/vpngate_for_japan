@@ -58,9 +58,6 @@ def get_vpn_lists():
                     if not ip_match: continue
                     vpn_ip = ip_match.group()
 
-                    # 2. 알려진 차단 대역(219, 121) 제외
-                    if vpn_ip.startswith(('219.', '121.')):
-                        continue
 
                     # 3. [핵심] 가정용 ISP 키워드가 포함되어 있는가? (개인 아이피 판별)
                     if not any(k in row_text for k in residential_keywords):
