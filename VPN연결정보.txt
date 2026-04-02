@@ -1,4 +1,0 @@
-url : vpn791998922.opengw.net
-ip : 220.93.192.231
-speed : 484.93 Mbps
-days : 1 days
